@@ -105,11 +105,11 @@ public class UIController : MonoBehaviour
 		SPTwitter.instance.Init();
 		//SPTwitter.instance.Init(TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET);
 
-		SPFacebook.instance.addEventListener(FacebookEvents.FACEBOOK_INITED,  OnFBInit);
-		SPFacebook.instance.addEventListener(FacebookEvents.AUTHENTICATION_SUCCEEDED, OnFBAuth);
-		SPFacebook.instance.addEventListener(FacebookEvents.USER_DATA_LOADED, OnFBUserDataLoaded);
-		SPFacebook.instance.addEventListener(FacebookEvents.USER_DATA_FAILED_TO_LOAD, OnFBUserDataLoadFailed);
-		SPFacebook.instance.Init();
+		//SPFacebook.instance.addEventListener(FacebookEvents.FACEBOOK_INITED,  OnFBInit);
+		//SPFacebook.instance.addEventListener(FacebookEvents.AUTHENTICATION_SUCCEEDED, OnFBAuth);
+		//SPFacebook.instance.addEventListener(FacebookEvents.USER_DATA_LOADED, OnFBUserDataLoaded);
+		//SPFacebook.instance.addEventListener(FacebookEvents.USER_DATA_FAILED_TO_LOAD, OnFBUserDataLoadFailed);
+		//SPFacebook.instance.Init();
 	}
 
 
@@ -165,12 +165,12 @@ public class UIController : MonoBehaviour
 
 			case 5:
 
-			//Application.LoadLevel("startScreen");
+			 Application.LoadLevel("startScreen");
 			Debug.Log(" Gender selection scene open (startScreen) ");
 					
-					DressingRoomScreen.SetActive(true);
-				   MenuScreen.SetActive(true);
-				   Txt_Menuscreen_title.text="My Dressing Room";
+					//DressingRoomScreen.SetActive(true);
+				   //MenuScreen.SetActive(true);
+				   //Txt_Menuscreen_title.text="My Dressing Room";
 			Debug.Log(" Previously Case5: dressing_room  was selected ");
 				   break;
 
@@ -519,7 +519,7 @@ public class UIController : MonoBehaviour
 		LoginType="F";
 		if(!IsFBAuthencated)
 		{
-			SPFacebook.instance.Login();
+			//SPFacebook.instance.Login();
 		}
 	}
 	//call for Webservice
@@ -624,16 +624,16 @@ public class UIController : MonoBehaviour
 	{
 		Debug.Log("++++++++++++FACEBOOK Authencation Done");
 		IsFBAuthencated=true;
-		SPFacebook.instance.LoadUserData();
+		//SPFacebook.instance.LoadUserData();
 		ShowLoading=true;
 	}
 	void OnFBUserDataLoaded()
 	{
-		u.EmailAddress=SPFacebook.instance.userInfo.email;
+		//u.EmailAddress=SPFacebook.instance.userInfo.email;
 
-		u.FullName=SPFacebook.instance.userInfo.first_name;
-		u.LoginType=LoginType;
-		u.Uniqueid=SPFacebook.instance.userInfo.id;
+		//u.FullName=SPFacebook.instance.userInfo.first_name;
+		//u.LoginType=LoginType;
+		//u.Uniqueid=SPFacebook.instance.userInfo.id;
 		//DeviceToken and DeviceToken set in start
 
 		//call Webservice hear

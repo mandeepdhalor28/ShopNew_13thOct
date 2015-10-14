@@ -1,0 +1,1015 @@
+fileFormatVersion: 2
+guid: fa73eba0747024932802d96e5afc7b2c
+timeCreated: 1444828737
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bazook
+    100002: chest
+    100004: chest 1
+    100006: chest-1
+    100008: chest-1 1
+    100010: clavicle_L
+    100012: clavicle_L 1
+    100014: clavicle_R
+    100016: clavicle_R 1
+    100018: Cube
+    100020: Cylinder
+    100022: Cylinder.002
+    100024: Cylinder.004
+    100026: Cylinder.008
+    100028: deltoid_L
+    100030: deltoid_L 1
+    100032: deltoid_R
+    100034: deltoid_R 1
+    100036: eye_L
+    100038: eye_L 1
+    100040: eye_L_end
+    100042: eye_L_end 1
+    100044: eye_R
+    100046: eye_R 1
+    100048: eye_R_end
+    100050: eye_R_end 1
+    100052: EyeLeft
+    100054: EyeLeft 1
+    100056: EyeLeft 2
+    100058: EyeLeft_end
+    100060: EyeLeft_end 1
+    100062: EyeLeft_end 2
+    100064: EyeRight
+    100066: EyeRight 1
+    100068: EyeRight 2
+    100070: EyeRight_end
+    100072: EyeRight_end 1
+    100074: EyeRight_end 2
+    100076: f_index_01_L
+    100078: f_index_01_L 1
+    100080: f_index_01_R
+    100082: f_index_01_R 1
+    100084: f_index_02_L
+    100086: f_index_02_L 1
+    100088: f_index_02_R
+    100090: f_index_02_R 1
+    100092: f_index_03_L
+    100094: f_index_03_L 1
+    100096: f_index_03_L_end
+    100098: f_index_03_L_end 1
+    100100: f_index_03_R
+    100102: f_index_03_R 1
+    100104: f_index_03_R_end
+    100106: f_index_03_R_end 1
+    100108: f_middle_01_L
+    100110: f_middle_01_L 1
+    100112: f_middle_01_R
+    100114: f_middle_01_R 1
+    100116: f_middle_02_L
+    100118: f_middle_02_L 1
+    100120: f_middle_02_R
+    100122: f_middle_02_R 1
+    100124: f_middle_03_L
+    100126: f_middle_03_L 1
+    100128: f_middle_03_L_end
+    100130: f_middle_03_L_end 1
+    100132: f_middle_03_R
+    100134: f_middle_03_R 1
+    100136: f_middle_03_R_end
+    100138: f_middle_03_R_end 1
+    100140: f_pinky_01_L
+    100142: f_pinky_01_L 1
+    100144: f_pinky_01_R
+    100146: f_pinky_01_R 1
+    100148: f_pinky_02_L
+    100150: f_pinky_02_L 1
+    100152: f_pinky_02_R
+    100154: f_pinky_02_R 1
+    100156: f_pinky_03_L
+    100158: f_pinky_03_L 1
+    100160: f_pinky_03_L_end
+    100162: f_pinky_03_L_end 1
+    100164: f_pinky_03_R
+    100166: f_pinky_03_R 1
+    100168: f_pinky_03_R_end
+    100170: f_pinky_03_R_end 1
+    100172: f_ring_01_L
+    100174: f_ring_01_L 1
+    100176: f_ring_01_R
+    100178: f_ring_01_R 1
+    100180: f_ring_02_L
+    100182: f_ring_02_L 1
+    100184: f_ring_02_R
+    100186: f_ring_02_R 1
+    100188: f_ring_03_L
+    100190: f_ring_03_L 1
+    100192: f_ring_03_L_end
+    100194: f_ring_03_L_end 1
+    100196: f_ring_03_R
+    100198: f_ring_03_R 1
+    100200: f_ring_03_R_end
+    100202: f_ring_03_R_end 1
+    100204: foot_L
+    100206: foot_L 1
+    100208: foot_R
+    100210: foot_R 1
+    100212: forearm_L
+    100214: forearm_L 1
+    100216: forearm_R
+    100218: forearm_R 1
+    100220: hand_L
+    100222: hand_L 1
+    100224: hand_R
+    100226: hand_R 1
+    100228: Head
+    100230: head
+    100232: Head 1
+    100234: head 1
+    100236: Head 2
+    100238: Hips
+    100240: hips
+    100242: Hips 1
+    100244: hips 1
+    100246: Hips 2
+    100248: jaw
+    100250: jaw 1
+    100252: LeftArm
+    100254: LeftArm 1
+    100256: LeftArm 2
+    100258: LeftFoot
+    100260: LeftFoot 1
+    100262: LeftFoot 2
+    100264: LeftForeArm
+    100266: LeftForeArm 1
+    100268: LeftForeArm 2
+    100270: LeftHand
+    100272: LeftHand 1
+    100274: LeftHand 2
+    100276: LeftHandIndex1
+    100278: LeftHandIndex1 1
+    100280: LeftHandIndex1 2
+    100282: LeftHandIndex2
+    100284: LeftHandIndex2 1
+    100286: LeftHandIndex2 2
+    100288: LeftHandIndex3
+    100290: LeftHandIndex3 1
+    100292: LeftHandIndex3 2
+    100294: LeftHandIndex3_end
+    100296: LeftHandIndex3_end 1
+    100298: LeftHandIndex3_end 2
+    100300: LeftHandMiddle1
+    100302: LeftHandMiddle1 1
+    100304: LeftHandMiddle1 2
+    100306: LeftHandMiddle2
+    100308: LeftHandMiddle2 1
+    100310: LeftHandMiddle2 2
+    100312: LeftHandMiddle3
+    100314: LeftHandMiddle3 1
+    100316: LeftHandMiddle3 2
+    100318: LeftHandMiddle3_end
+    100320: LeftHandMiddle3_end 1
+    100322: LeftHandMiddle3_end 2
+    100324: LeftHandPinky1
+    100326: LeftHandPinky1 1
+    100328: LeftHandPinky1 2
+    100330: LeftHandPinky2
+    100332: LeftHandPinky2 1
+    100334: LeftHandPinky2 2
+    100336: LeftHandPinky3
+    100338: LeftHandPinky3 1
+    100340: LeftHandPinky3 2
+    100342: LeftHandPinky3_end
+    100344: LeftHandPinky3_end 1
+    100346: LeftHandPinky3_end 2
+    100348: LeftHandRing1
+    100350: LeftHandRing1 1
+    100352: LeftHandRing1 2
+    100354: LeftHandRing2
+    100356: LeftHandRing2 1
+    100358: LeftHandRing2 2
+    100360: LeftHandRing3
+    100362: LeftHandRing3 1
+    100364: LeftHandRing3 2
+    100366: LeftHandRing3_end
+    100368: LeftHandRing3_end 1
+    100370: LeftHandRing3_end 2
+    100372: LeftHandThumb1
+    100374: LeftHandThumb1 1
+    100376: LeftHandThumb1 2
+    100378: LeftHandThumb2
+    100380: LeftHandThumb2 1
+    100382: LeftHandThumb2 2
+    100384: LeftHandThumb3
+    100386: LeftHandThumb3 1
+    100388: LeftHandThumb3 2
+    100390: LeftHandThumb3_end
+    100392: LeftHandThumb3_end 1
+    100394: LeftHandThumb3_end 2
+    100396: LeftInHandIndex
+    100398: LeftInHandIndex 1
+    100400: LeftInHandIndex 2
+    100402: LeftInHandMiddle
+    100404: LeftInHandMiddle 1
+    100406: LeftInHandMiddle 2
+    100408: LeftInHandPinky
+    100410: LeftInHandPinky 1
+    100412: LeftInHandPinky 2
+    100414: LeftInHandRing
+    100416: LeftInHandRing 1
+    100418: LeftInHandRing 2
+    100420: LeftLeg
+    100422: LeftLeg 1
+    100424: LeftLeg 2
+    100426: LeftShoulder
+    100428: LeftShoulder 1
+    100430: LeftShoulder 2
+    100432: LeftShoulderExtra
+    100434: LeftShoulderExtra 1
+    100436: LeftShoulderExtra 2
+    100438: LeftToeBase
+    100440: LeftToeBase 1
+    100442: LeftToeBase 2
+    100444: LeftToeBase_end
+    100446: LeftToeBase_end 1
+    100448: LeftToeBase_end 2
+    100450: LeftUpLeg
+    100452: LeftUpLeg 1
+    100454: LeftUpLeg 2
+    100456: lolid_L
+    100458: lolid_L 1
+    100460: lolid_L_end
+    100462: lolid_L_end 1
+    100464: lolid_R
+    100466: lolid_R 1
+    100468: lolid_R_end
+    100470: lolid_R_end 1
+    100472: Neck
+    100474: neck
+    100476: Neck 1
+    100478: neck 1
+    100480: Neck 2
+    100482: palm_index_L
+    100484: palm_index_L 1
+    100486: palm_index_R
+    100488: palm_index_R 1
+    100490: palm_middle_L
+    100492: palm_middle_L 1
+    100494: palm_middle_R
+    100496: palm_middle_R 1
+    100498: palm_pinky_L
+    100500: palm_pinky_L 1
+    100502: palm_pinky_R
+    100504: palm_pinky_R 1
+    100506: palm_ring_L
+    100508: palm_ring_L 1
+    100510: palm_ring_R
+    100512: palm_ring_R 1
+    100514: Plane
+    100516: Plane.004
+    100518: python.001
+    100520: python.002
+    100522: python.003
+    100524: python.004
+    100526: python.005
+    100528: python_girl-eyebrow007.001
+    100530: python_girl-eyelashes03.001
+    100532: python_girl-fhair01.001
+    100534: python_girl-highpolyeyes.001
+    100536: python_girl-short01.001
+    100538: python_girl-tshirt_short.001
+    100540: python_girl-tshirt_short.004
+    100542: python_woman2-base
+    100544: python_woman2-eyebrow003
+    100546: python_woman2-fhair01
+    100548: python_woman2-highpolyeyes
+    100550: python_woman2-highpolyeyes.001
+    100552: python_woman2-highpolyeyes.002
+    100554: python_woman2-short01
+    100556: RightArm
+    100558: RightArm 1
+    100560: RightArm 2
+    100562: RightFoot
+    100564: RightFoot 1
+    100566: RightFoot 2
+    100568: RightForeArm
+    100570: RightForeArm 1
+    100572: RightForeArm 2
+    100574: RightHand
+    100576: RightHand 1
+    100578: RightHand 2
+    100580: RightHandIndex1
+    100582: RightHandIndex1 1
+    100584: RightHandIndex1 2
+    100586: RightHandIndex2
+    100588: RightHandIndex2 1
+    100590: RightHandIndex2 2
+    100592: RightHandIndex3
+    100594: RightHandIndex3 1
+    100596: RightHandIndex3 2
+    100598: RightHandIndex3_end
+    100600: RightHandIndex3_end 1
+    100602: RightHandIndex3_end 2
+    100604: RightHandMiddle1
+    100606: RightHandMiddle1 1
+    100608: RightHandMiddle1 2
+    100610: RightHandMiddle2
+    100612: RightHandMiddle2 1
+    100614: RightHandMiddle2 2
+    100616: RightHandMiddle3
+    100618: RightHandMiddle3 1
+    100620: RightHandMiddle3 2
+    100622: RightHandMiddle3_end
+    100624: RightHandMiddle3_end 1
+    100626: RightHandMiddle3_end 2
+    100628: RightHandPinky1
+    100630: RightHandPinky1 1
+    100632: RightHandPinky1 2
+    100634: RightHandPinky2
+    100636: RightHandPinky2 1
+    100638: RightHandPinky2 2
+    100640: RightHandPinky3
+    100642: RightHandPinky3 1
+    100644: RightHandPinky3 2
+    100646: RightHandPinky3_end
+    100648: RightHandPinky3_end 1
+    100650: RightHandPinky3_end 2
+    100652: RightHandRing1
+    100654: RightHandRing1 1
+    100656: RightHandRing1 2
+    100658: RightHandRing2
+    100660: RightHandRing2 1
+    100662: RightHandRing2 2
+    100664: RightHandRing3
+    100666: RightHandRing3 1
+    100668: RightHandRing3 2
+    100670: RightHandRing3_end
+    100672: RightHandRing3_end 1
+    100674: RightHandRing3_end 2
+    100676: RightHandThumb1
+    100678: RightHandThumb1 1
+    100680: RightHandThumb1 2
+    100682: RightHandThumb2
+    100684: RightHandThumb2 1
+    100686: RightHandThumb2 2
+    100688: RightHandThumb3
+    100690: RightHandThumb3 1
+    100692: RightHandThumb3 2
+    100694: RightHandThumb3_end
+    100696: RightHandThumb3_end 1
+    100698: RightHandThumb3_end 2
+    100700: RightInHandIndex
+    100702: RightInHandIndex 1
+    100704: RightInHandIndex 2
+    100706: RightInHandMiddle
+    100708: RightInHandMiddle 1
+    100710: RightInHandMiddle 2
+    100712: RightInHandPinky
+    100714: RightInHandPinky 1
+    100716: RightInHandPinky 2
+    100718: RightInHandRing
+    100720: RightInHandRing 1
+    100722: RightInHandRing 2
+    100724: RightLeg
+    100726: RightLeg 1
+    100728: RightLeg 2
+    100730: RightShoulder
+    100732: RightShoulder 1
+    100734: RightShoulder 2
+    100736: RightShoulderExtra
+    100738: RightShoulderExtra 1
+    100740: RightShoulderExtra 2
+    100742: RightToeBase
+    100744: RightToeBase 1
+    100746: RightToeBase 2
+    100748: RightToeBase_end
+    100750: RightToeBase_end 1
+    100752: RightToeBase_end 2
+    100754: RightUpLeg
+    100756: RightUpLeg 1
+    100758: RightUpLeg 2
+    100760: shin_L
+    100762: shin_L 1
+    100764: shin_R
+    100766: shin_R 1
+    100768: //RootNode
+    100770: Spine
+    100772: spine
+    100774: Spine 1
+    100776: spine 1
+    100778: Spine 2
+    100780: spine-1
+    100782: spine-1 1
+    100784: Spine1
+    100786: Spine1 1
+    100788: Spine1 2
+    100790: Spine2
+    100792: Spine2 1
+    100794: Spine2 2
+    100796: Spine3
+    100798: Spine3 1
+    100800: Spine3 2
+    100802: thigh_L
+    100804: thigh_L 1
+    100806: thigh_R
+    100808: thigh_R 1
+    100810: thumb_01_L
+    100812: thumb_01_L 1
+    100814: thumb_01_R
+    100816: thumb_01_R 1
+    100818: thumb_02_L
+    100820: thumb_02_L 1
+    100822: thumb_02_R
+    100824: thumb_02_R 1
+    100826: thumb_03_L
+    100828: thumb_03_L 1
+    100830: thumb_03_L_end
+    100832: thumb_03_L_end 1
+    100834: thumb_03_R
+    100836: thumb_03_R 1
+    100838: thumb_03_R_end
+    100840: thumb_03_R_end 1
+    100842: toe_L
+    100844: toe_L 1
+    100846: toe_L_end
+    100848: toe_L_end 1
+    100850: toe_R
+    100852: toe_R 1
+    100854: toe_R_end
+    100856: toe_R_end 1
+    100858: tongue_base
+    100860: tongue_base 1
+    100862: tongue_mid
+    100864: tongue_mid 1
+    100866: tongue_tip
+    100868: tongue_tip 1
+    100870: tongue_tip_end
+    100872: tongue_tip_end 1
+    100874: uplid_L
+    100876: uplid_L 1
+    100878: uplid_L_end
+    100880: uplid_L_end 1
+    100882: uplid_R
+    100884: uplid_R 1
+    100886: uplid_R_end
+    100888: uplid_R_end 1
+    100890: upper_arm_L
+    100892: upper_arm_L 1
+    100894: upper_arm_R
+    100896: upper_arm_R 1
+    400000: Bazook
+    400002: chest
+    400004: chest 1
+    400006: chest-1
+    400008: chest-1 1
+    400010: clavicle_L
+    400012: clavicle_L 1
+    400014: clavicle_R
+    400016: clavicle_R 1
+    400018: Cube
+    400020: Cylinder
+    400022: Cylinder.002
+    400024: Cylinder.004
+    400026: Cylinder.008
+    400028: deltoid_L
+    400030: deltoid_L 1
+    400032: deltoid_R
+    400034: deltoid_R 1
+    400036: eye_L
+    400038: eye_L 1
+    400040: eye_L_end
+    400042: eye_L_end 1
+    400044: eye_R
+    400046: eye_R 1
+    400048: eye_R_end
+    400050: eye_R_end 1
+    400052: EyeLeft
+    400054: EyeLeft 1
+    400056: EyeLeft 2
+    400058: EyeLeft_end
+    400060: EyeLeft_end 1
+    400062: EyeLeft_end 2
+    400064: EyeRight
+    400066: EyeRight 1
+    400068: EyeRight 2
+    400070: EyeRight_end
+    400072: EyeRight_end 1
+    400074: EyeRight_end 2
+    400076: f_index_01_L
+    400078: f_index_01_L 1
+    400080: f_index_01_R
+    400082: f_index_01_R 1
+    400084: f_index_02_L
+    400086: f_index_02_L 1
+    400088: f_index_02_R
+    400090: f_index_02_R 1
+    400092: f_index_03_L
+    400094: f_index_03_L 1
+    400096: f_index_03_L_end
+    400098: f_index_03_L_end 1
+    400100: f_index_03_R
+    400102: f_index_03_R 1
+    400104: f_index_03_R_end
+    400106: f_index_03_R_end 1
+    400108: f_middle_01_L
+    400110: f_middle_01_L 1
+    400112: f_middle_01_R
+    400114: f_middle_01_R 1
+    400116: f_middle_02_L
+    400118: f_middle_02_L 1
+    400120: f_middle_02_R
+    400122: f_middle_02_R 1
+    400124: f_middle_03_L
+    400126: f_middle_03_L 1
+    400128: f_middle_03_L_end
+    400130: f_middle_03_L_end 1
+    400132: f_middle_03_R
+    400134: f_middle_03_R 1
+    400136: f_middle_03_R_end
+    400138: f_middle_03_R_end 1
+    400140: f_pinky_01_L
+    400142: f_pinky_01_L 1
+    400144: f_pinky_01_R
+    400146: f_pinky_01_R 1
+    400148: f_pinky_02_L
+    400150: f_pinky_02_L 1
+    400152: f_pinky_02_R
+    400154: f_pinky_02_R 1
+    400156: f_pinky_03_L
+    400158: f_pinky_03_L 1
+    400160: f_pinky_03_L_end
+    400162: f_pinky_03_L_end 1
+    400164: f_pinky_03_R
+    400166: f_pinky_03_R 1
+    400168: f_pinky_03_R_end
+    400170: f_pinky_03_R_end 1
+    400172: f_ring_01_L
+    400174: f_ring_01_L 1
+    400176: f_ring_01_R
+    400178: f_ring_01_R 1
+    400180: f_ring_02_L
+    400182: f_ring_02_L 1
+    400184: f_ring_02_R
+    400186: f_ring_02_R 1
+    400188: f_ring_03_L
+    400190: f_ring_03_L 1
+    400192: f_ring_03_L_end
+    400194: f_ring_03_L_end 1
+    400196: f_ring_03_R
+    400198: f_ring_03_R 1
+    400200: f_ring_03_R_end
+    400202: f_ring_03_R_end 1
+    400204: foot_L
+    400206: foot_L 1
+    400208: foot_R
+    400210: foot_R 1
+    400212: forearm_L
+    400214: forearm_L 1
+    400216: forearm_R
+    400218: forearm_R 1
+    400220: hand_L
+    400222: hand_L 1
+    400224: hand_R
+    400226: hand_R 1
+    400228: Head
+    400230: head
+    400232: Head 1
+    400234: head 1
+    400236: Head 2
+    400238: Hips
+    400240: hips
+    400242: Hips 1
+    400244: hips 1
+    400246: Hips 2
+    400248: jaw
+    400250: jaw 1
+    400252: LeftArm
+    400254: LeftArm 1
+    400256: LeftArm 2
+    400258: LeftFoot
+    400260: LeftFoot 1
+    400262: LeftFoot 2
+    400264: LeftForeArm
+    400266: LeftForeArm 1
+    400268: LeftForeArm 2
+    400270: LeftHand
+    400272: LeftHand 1
+    400274: LeftHand 2
+    400276: LeftHandIndex1
+    400278: LeftHandIndex1 1
+    400280: LeftHandIndex1 2
+    400282: LeftHandIndex2
+    400284: LeftHandIndex2 1
+    400286: LeftHandIndex2 2
+    400288: LeftHandIndex3
+    400290: LeftHandIndex3 1
+    400292: LeftHandIndex3 2
+    400294: LeftHandIndex3_end
+    400296: LeftHandIndex3_end 1
+    400298: LeftHandIndex3_end 2
+    400300: LeftHandMiddle1
+    400302: LeftHandMiddle1 1
+    400304: LeftHandMiddle1 2
+    400306: LeftHandMiddle2
+    400308: LeftHandMiddle2 1
+    400310: LeftHandMiddle2 2
+    400312: LeftHandMiddle3
+    400314: LeftHandMiddle3 1
+    400316: LeftHandMiddle3 2
+    400318: LeftHandMiddle3_end
+    400320: LeftHandMiddle3_end 1
+    400322: LeftHandMiddle3_end 2
+    400324: LeftHandPinky1
+    400326: LeftHandPinky1 1
+    400328: LeftHandPinky1 2
+    400330: LeftHandPinky2
+    400332: LeftHandPinky2 1
+    400334: LeftHandPinky2 2
+    400336: LeftHandPinky3
+    400338: LeftHandPinky3 1
+    400340: LeftHandPinky3 2
+    400342: LeftHandPinky3_end
+    400344: LeftHandPinky3_end 1
+    400346: LeftHandPinky3_end 2
+    400348: LeftHandRing1
+    400350: LeftHandRing1 1
+    400352: LeftHandRing1 2
+    400354: LeftHandRing2
+    400356: LeftHandRing2 1
+    400358: LeftHandRing2 2
+    400360: LeftHandRing3
+    400362: LeftHandRing3 1
+    400364: LeftHandRing3 2
+    400366: LeftHandRing3_end
+    400368: LeftHandRing3_end 1
+    400370: LeftHandRing3_end 2
+    400372: LeftHandThumb1
+    400374: LeftHandThumb1 1
+    400376: LeftHandThumb1 2
+    400378: LeftHandThumb2
+    400380: LeftHandThumb2 1
+    400382: LeftHandThumb2 2
+    400384: LeftHandThumb3
+    400386: LeftHandThumb3 1
+    400388: LeftHandThumb3 2
+    400390: LeftHandThumb3_end
+    400392: LeftHandThumb3_end 1
+    400394: LeftHandThumb3_end 2
+    400396: LeftInHandIndex
+    400398: LeftInHandIndex 1
+    400400: LeftInHandIndex 2
+    400402: LeftInHandMiddle
+    400404: LeftInHandMiddle 1
+    400406: LeftInHandMiddle 2
+    400408: LeftInHandPinky
+    400410: LeftInHandPinky 1
+    400412: LeftInHandPinky 2
+    400414: LeftInHandRing
+    400416: LeftInHandRing 1
+    400418: LeftInHandRing 2
+    400420: LeftLeg
+    400422: LeftLeg 1
+    400424: LeftLeg 2
+    400426: LeftShoulder
+    400428: LeftShoulder 1
+    400430: LeftShoulder 2
+    400432: LeftShoulderExtra
+    400434: LeftShoulderExtra 1
+    400436: LeftShoulderExtra 2
+    400438: LeftToeBase
+    400440: LeftToeBase 1
+    400442: LeftToeBase 2
+    400444: LeftToeBase_end
+    400446: LeftToeBase_end 1
+    400448: LeftToeBase_end 2
+    400450: LeftUpLeg
+    400452: LeftUpLeg 1
+    400454: LeftUpLeg 2
+    400456: lolid_L
+    400458: lolid_L 1
+    400460: lolid_L_end
+    400462: lolid_L_end 1
+    400464: lolid_R
+    400466: lolid_R 1
+    400468: lolid_R_end
+    400470: lolid_R_end 1
+    400472: Neck
+    400474: neck
+    400476: Neck 1
+    400478: neck 1
+    400480: Neck 2
+    400482: palm_index_L
+    400484: palm_index_L 1
+    400486: palm_index_R
+    400488: palm_index_R 1
+    400490: palm_middle_L
+    400492: palm_middle_L 1
+    400494: palm_middle_R
+    400496: palm_middle_R 1
+    400498: palm_pinky_L
+    400500: palm_pinky_L 1
+    400502: palm_pinky_R
+    400504: palm_pinky_R 1
+    400506: palm_ring_L
+    400508: palm_ring_L 1
+    400510: palm_ring_R
+    400512: palm_ring_R 1
+    400514: Plane
+    400516: Plane.004
+    400518: python.001
+    400520: python.002
+    400522: python.003
+    400524: python.004
+    400526: python.005
+    400528: python_girl-eyebrow007.001
+    400530: python_girl-eyelashes03.001
+    400532: python_girl-fhair01.001
+    400534: python_girl-highpolyeyes.001
+    400536: python_girl-short01.001
+    400538: python_girl-tshirt_short.001
+    400540: python_girl-tshirt_short.004
+    400542: python_woman2-base
+    400544: python_woman2-eyebrow003
+    400546: python_woman2-fhair01
+    400548: python_woman2-highpolyeyes
+    400550: python_woman2-highpolyeyes.001
+    400552: python_woman2-highpolyeyes.002
+    400554: python_woman2-short01
+    400556: RightArm
+    400558: RightArm 1
+    400560: RightArm 2
+    400562: RightFoot
+    400564: RightFoot 1
+    400566: RightFoot 2
+    400568: RightForeArm
+    400570: RightForeArm 1
+    400572: RightForeArm 2
+    400574: RightHand
+    400576: RightHand 1
+    400578: RightHand 2
+    400580: RightHandIndex1
+    400582: RightHandIndex1 1
+    400584: RightHandIndex1 2
+    400586: RightHandIndex2
+    400588: RightHandIndex2 1
+    400590: RightHandIndex2 2
+    400592: RightHandIndex3
+    400594: RightHandIndex3 1
+    400596: RightHandIndex3 2
+    400598: RightHandIndex3_end
+    400600: RightHandIndex3_end 1
+    400602: RightHandIndex3_end 2
+    400604: RightHandMiddle1
+    400606: RightHandMiddle1 1
+    400608: RightHandMiddle1 2
+    400610: RightHandMiddle2
+    400612: RightHandMiddle2 1
+    400614: RightHandMiddle2 2
+    400616: RightHandMiddle3
+    400618: RightHandMiddle3 1
+    400620: RightHandMiddle3 2
+    400622: RightHandMiddle3_end
+    400624: RightHandMiddle3_end 1
+    400626: RightHandMiddle3_end 2
+    400628: RightHandPinky1
+    400630: RightHandPinky1 1
+    400632: RightHandPinky1 2
+    400634: RightHandPinky2
+    400636: RightHandPinky2 1
+    400638: RightHandPinky2 2
+    400640: RightHandPinky3
+    400642: RightHandPinky3 1
+    400644: RightHandPinky3 2
+    400646: RightHandPinky3_end
+    400648: RightHandPinky3_end 1
+    400650: RightHandPinky3_end 2
+    400652: RightHandRing1
+    400654: RightHandRing1 1
+    400656: RightHandRing1 2
+    400658: RightHandRing2
+    400660: RightHandRing2 1
+    400662: RightHandRing2 2
+    400664: RightHandRing3
+    400666: RightHandRing3 1
+    400668: RightHandRing3 2
+    400670: RightHandRing3_end
+    400672: RightHandRing3_end 1
+    400674: RightHandRing3_end 2
+    400676: RightHandThumb1
+    400678: RightHandThumb1 1
+    400680: RightHandThumb1 2
+    400682: RightHandThumb2
+    400684: RightHandThumb2 1
+    400686: RightHandThumb2 2
+    400688: RightHandThumb3
+    400690: RightHandThumb3 1
+    400692: RightHandThumb3 2
+    400694: RightHandThumb3_end
+    400696: RightHandThumb3_end 1
+    400698: RightHandThumb3_end 2
+    400700: RightInHandIndex
+    400702: RightInHandIndex 1
+    400704: RightInHandIndex 2
+    400706: RightInHandMiddle
+    400708: RightInHandMiddle 1
+    400710: RightInHandMiddle 2
+    400712: RightInHandPinky
+    400714: RightInHandPinky 1
+    400716: RightInHandPinky 2
+    400718: RightInHandRing
+    400720: RightInHandRing 1
+    400722: RightInHandRing 2
+    400724: RightLeg
+    400726: RightLeg 1
+    400728: RightLeg 2
+    400730: RightShoulder
+    400732: RightShoulder 1
+    400734: RightShoulder 2
+    400736: RightShoulderExtra
+    400738: RightShoulderExtra 1
+    400740: RightShoulderExtra 2
+    400742: RightToeBase
+    400744: RightToeBase 1
+    400746: RightToeBase 2
+    400748: RightToeBase_end
+    400750: RightToeBase_end 1
+    400752: RightToeBase_end 2
+    400754: RightUpLeg
+    400756: RightUpLeg 1
+    400758: RightUpLeg 2
+    400760: shin_L
+    400762: shin_L 1
+    400764: shin_R
+    400766: shin_R 1
+    400768: //RootNode
+    400770: Spine
+    400772: spine
+    400774: Spine 1
+    400776: spine 1
+    400778: Spine 2
+    400780: spine-1
+    400782: spine-1 1
+    400784: Spine1
+    400786: Spine1 1
+    400788: Spine1 2
+    400790: Spine2
+    400792: Spine2 1
+    400794: Spine2 2
+    400796: Spine3
+    400798: Spine3 1
+    400800: Spine3 2
+    400802: thigh_L
+    400804: thigh_L 1
+    400806: thigh_R
+    400808: thigh_R 1
+    400810: thumb_01_L
+    400812: thumb_01_L 1
+    400814: thumb_01_R
+    400816: thumb_01_R 1
+    400818: thumb_02_L
+    400820: thumb_02_L 1
+    400822: thumb_02_R
+    400824: thumb_02_R 1
+    400826: thumb_03_L
+    400828: thumb_03_L 1
+    400830: thumb_03_L_end
+    400832: thumb_03_L_end 1
+    400834: thumb_03_R
+    400836: thumb_03_R 1
+    400838: thumb_03_R_end
+    400840: thumb_03_R_end 1
+    400842: toe_L
+    400844: toe_L 1
+    400846: toe_L_end
+    400848: toe_L_end 1
+    400850: toe_R
+    400852: toe_R 1
+    400854: toe_R_end
+    400856: toe_R_end 1
+    400858: tongue_base
+    400860: tongue_base 1
+    400862: tongue_mid
+    400864: tongue_mid 1
+    400866: tongue_tip
+    400868: tongue_tip 1
+    400870: tongue_tip_end
+    400872: tongue_tip_end 1
+    400874: uplid_L
+    400876: uplid_L 1
+    400878: uplid_L_end
+    400880: uplid_L_end 1
+    400882: uplid_R
+    400884: uplid_R 1
+    400886: uplid_R_end
+    400888: uplid_R_end 1
+    400890: upper_arm_L
+    400892: upper_arm_L 1
+    400894: upper_arm_R
+    400896: upper_arm_R 1
+    2300000: Cube
+    2300002: Cylinder
+    2300004: Cylinder.002
+    2300006: Cylinder.004
+    2300008: Cylinder.008
+    2300010: Plane
+    2300012: Plane.004
+    3300000: Cube
+    3300002: Cylinder
+    3300004: Cylinder.002
+    3300006: Cylinder.004
+    3300008: Cylinder.008
+    3300010: Plane
+    3300012: Plane.004
+    4300000: Plane.004
+    4300002: python_girl-tshirt_short.004
+    4300004: Cylinder.004
+    4300006: Cube
+    4300008: python_woman2-short01
+    4300010: python_woman2-eyebrow003
+    4300012: python_woman2-highpolyeyes.002
+    4300014: python_woman2-fhair01
+    4300016: python_woman2-base
+    4300018: python_woman2-highpolyeyes.001
+    4300020: python_woman2-highpolyeyes
+    4300022: Bazook
+    4300024: python_girl-fhair01.001
+    4300026: python_girl-highpolyeyes.001
+    4300028: python_girl-eyebrow007.001
+    4300030: python_girl-eyelashes03.001
+    4300032: python_girl-short01.001
+    4300034: python_girl-tshirt_short.001
+    4300036: Cylinder.002
+    4300038: Cylinder.008
+    4300040: Cylinder
+    4300042: Plane
+    9500000: //RootNode
+    13700000: Bazook
+    13700002: python_girl-eyebrow007.001
+    13700004: python_girl-eyelashes03.001
+    13700006: python_girl-fhair01.001
+    13700008: python_girl-highpolyeyes.001
+    13700010: python_girl-short01.001
+    13700012: python_girl-tshirt_short.001
+    13700014: python_girl-tshirt_short.004
+    13700016: python_woman2-base
+    13700018: python_woman2-eyebrow003
+    13700020: python_woman2-fhair01
+    13700022: python_woman2-highpolyeyes
+    13700024: python_woman2-highpolyeyes.001
+    13700026: python_woman2-highpolyeyes.002
+    13700028: python_woman2-short01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
